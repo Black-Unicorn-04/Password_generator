@@ -23,7 +23,7 @@ character1=chr(random.randint (33,64))
 character2=chr(random.randint (33,64))
 
 
-password = uppercaseLetter1 + uppercaseLetter2 + lowercaseLetter1 + lowercaseLetter2 + character1 + character2
+password = uppercaseLetter1 + uppercaseLetter2 + lowercaseLetter1 + lowercaseLetter2 + character1 + character2 + uppercaseLetter1 + uppercaseLetter2 + lowercaseLetter1 + lowercaseLetter2 + character1 + character2
 password = shuffle(password)
 
 print(password)
